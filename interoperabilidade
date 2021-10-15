@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T00:53:26.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.5.2" etag="oWixl70ZwEZxm_lPMS8V" type="github"><diagram id="4qwsyaGud4znnr5NRYCJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-15T01:02:57.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="L0BccA0Td2ur_hP4gnIx" version="15.5.2" type="github">
+  <diagram id="4qwsyaGud4znnr5NRYCJ" name="Page-1">
+    <mxGraphModel dx="1185" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L5qPRnQJKiXPxXz9fiMd-1" target="L5qPRnQJKiXPxXz9fiMd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L5qPRnQJKiXPxXz9fiMd-1" target="L5qPRnQJKiXPxXz9fiMd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-1" value="aplicação EHR 1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L5qPRnQJKiXPxXz9fiMd-2" target="L5qPRnQJKiXPxXz9fiMd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-2" value="aplicação EHR 2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-3" value="persistencia dos dados&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.381;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L5qPRnQJKiXPxXz9fiMd-7" target="L5qPRnQJKiXPxXz9fiMd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-17" value="link de comunicação" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L5qPRnQJKiXPxXz9fiMd-12">
+          <mxGeometry x="-0.04" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-7" value="mapeamento para FHIR/openEHR" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-13" value="persistencia de dados do sistema 2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="670" y="370" width="110" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L5qPRnQJKiXPxXz9fiMd-14" target="L5qPRnQJKiXPxXz9fiMd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-14" value="mapeamento para estrutura proprietaria de dados" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="450" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L5qPRnQJKiXPxXz9fiMd-18" value="Sistema 1 envia compartilha uma informação com o Sistema 2&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="30" width="350" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
